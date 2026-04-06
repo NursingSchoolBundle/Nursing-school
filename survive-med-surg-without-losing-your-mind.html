@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} | Nursing School Bundle 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563eb; --dark: #0f172a; --light-bg: #f8fafc; --accent: #f59e0b; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--light-bg); color: var(--dark); line-height: 1.6; }
+        .hero { padding: 60px 20px; text-align: center; max-width: 900px; margin: 0 auto; }
+        .badge { background: #dbeafe; color: var(--primary); padding: 8px 20px; border-radius: 100px; font-size: 14px; font-weight: 700; margin-bottom: 24px; display: inline-block; text-transform: uppercase; }
+        h1 { font-size: clamp(28px, 5vw, 48px); font-weight: 800; margin-bottom: 20px; color: var(--dark); }
+        .stars { color: var(--accent); font-size: 24px; margin-bottom: 10px; }
+        
+        .video-container { position: relative; max-width: 800px; margin: 0 auto 50px; border-radius: 32px; overflow: hidden; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15); border: 8px solid white; background: white; }
+        video { width: 100%; display: block; }
+
+        .premium-box { text-align: left; max-width: 750px; margin: 40px auto; background: white; padding: 40px; border-radius: 32px; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
+        .dynamic-desc { font-size: 18px; font-weight: 600; color: #475569; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px dashed #f1f5f9; }
+        
+        .premium-box h2 { font-size: 22px; margin-bottom: 20px; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+        .premium-box ul { list-style: none; padding: 0; margin-bottom: 30px; }
+        .premium-box li { margin-bottom: 15px; font-size: 16px; color: #334155; padding-left: 30px; position: relative; }
+        .premium-box li::before { content: "✔"; position: absolute; left: 0; color: #10b981; font-weight: bold; font-size: 20px; }
+
+        .cta-container { background: white; padding: 40px; border-radius: 32px; box-shadow: 0 20px 50px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; max-width: 750px; margin: 20px auto; }
+        .price { font-size: 42px; font-weight: 800; margin-bottom: 15px; }
+        .price span { font-size: 18px; text-decoration: line-through; color: #94a3b8; margin-right: 10px; }
+        .gumroad-button { display: block; background: var(--primary); color: white; text-decoration: none; padding: 22px; border-radius: 20px; font-size: 20px; font-weight: 700; transition: 0.3s; }
+        .gumroad-button:hover { transform: translateY(-3px); filter: brightness(1.1); }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="badge">OFFICIAL 2026 EDITION</div>
+    <div class="stars">★★★★★</div>
+    <h1>{{TITLE}}</h1>
+    
+    <div class="video-container">
+        <video controls>
+            <source src="https://raw.githubusercontent.com/NursingSchoolBundle/Nursing-school/main/nursing-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="premium-box">
+        <div class="dynamic-desc">{{DESCRIPTION}}</div>
+
+        <h2>✨ Why Students Love This Bundle:</h2>
+        <ul>
+            <li><strong>Complete Coverage:</strong> Includes EVERY study guide (Fundamentals, Med-Surg, OB, Peds).</li>
+            <li><strong>Pharmacology Mastery:</strong> High-yield cheat sheets for all meds.</li>
+            <li><strong>NCLEX Ready:</strong> Critical care and dosage calculations simplified.</li>
+        </ul>
+
+        <h2>📦 What’s Inside:</h2>
+        <ul>
+            <li><strong>10+ Specific Bundles:</strong> Med-Surg, Peds, Maternity, and Mental Health.</li>
+            <li><strong>Immediate Access:</strong> Digital eBook format. Get started instantly!</li>
+        </ul>
+    </div>
+
+    <div class="cta-container">
+        <div class="price"><span>$185.00</span> $14.99</div>
+        <a href="https://purelydigitalmarket.gumroad.com/l/NursingSchoolBundle" class="gumroad-button">Access Full Study Bundle Now</a>
+    </div>
+</section>
+
+</body>
+</html>
