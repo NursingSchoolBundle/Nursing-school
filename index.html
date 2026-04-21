@@ -4,15 +4,12 @@
   <meta name="google-site-verification" content="1y1n9SX9ri4y9QX1Fm9yU3TcViSWk9QqzMIyqRIWONQ" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NCLEX Review: Pharmacology Visual Mnemonics | Nursing Bundle</title>
+  <title>NCLEX Review: Pharmacology Visual Mnemonics | 2026 Nursing Bundle</title>
 
-  <!-- Google Fonts: Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-  <!-- FontAwesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-  <!-- JSON-LD: BroadcastEvent structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -128,7 +125,6 @@
       margin-bottom: 28px;
     }
 
-    /* 16:9 responsive iframe wrapper */
     .video-wrap {
       position: relative;
       width: 100%;
@@ -146,7 +142,6 @@
       border: none;
     }
 
-    /* Topic chips */
     .topic-chips {
       display: flex;
       flex-wrap: wrap;
@@ -168,7 +163,6 @@
     }
     .chip i { color: var(--teal); font-size: .72rem; }
 
-    /* Divider */
     .divider {
       border: none;
       height: 2px;
@@ -180,8 +174,6 @@
     /* ═══════════════════════════════════════════════════════════
        SECTION 2 – PRODUCT BUNDLE
     ═══════════════════════════════════════════════════════════ */
-    .section-bundle {}
-
     .bundle-headline {
       font-size: clamp(1.5rem, 4vw, 2.15rem);
       font-weight: 800;
@@ -197,7 +189,6 @@
       max-width: 620px;
     }
 
-    /* ── Image Grid ───── */
     .img-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -235,12 +226,10 @@
       color: var(--gray-200);
     }
 
-    /* Slot labels */
     .img-slot-1::after { content: "Preview 1"; }
     .img-slot-2::after { content: "Preview 2"; }
     .img-slot-3::after { content: "Preview 3"; }
 
-    /* ── Bundle Card ───── */
     .bundle-card {
       background: var(--white);
       border-radius: var(--radius-lg);
@@ -268,7 +257,6 @@
       padding: 32px 36px;
     }
 
-    /* Feature list */
     .features-list {
       list-style: none;
       display: grid;
@@ -294,7 +282,6 @@
       color: var(--gray-800);
     }
 
-    /* CTA area */
     .cta-area {
       display: flex;
       flex-direction: column;
@@ -343,7 +330,6 @@
     }
     .urgency-text i { font-size: .8rem; }
 
-    /* Trust row */
     .trust-row {
       display: flex;
       flex-wrap: wrap;
@@ -360,6 +346,53 @@
     }
     .trust-item i { color: var(--teal); font-size: .82rem; }
 
+    /* ═══════════════════════════════════════════════════════════
+       NEW: SEO RESOURCE DIRECTORY (INDEXING BOOST)
+    ═══════════════════════════════════════════════════════════ */
+    .resource-directory {
+      margin-top: 60px;
+      padding: 40px;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--gray-100);
+    }
+    .resource-directory h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 24px;
+      color: var(--teal-dark);
+      border-left: 5px solid var(--teal);
+      padding-left: 15px;
+    }
+    .resource-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .resource-item {
+      padding: 15px;
+      border-radius: var(--radius-md);
+      background: var(--off-white);
+      transition: background 0.2s;
+    }
+    .resource-item:hover { background: var(--teal-light); }
+    .resource-item h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .resource-item a {
+      color: var(--blue-mid);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .resource-item a:hover { text-decoration: underline; }
+
     /* ─── Footer ───────────────────────────────────────────── */
     .page-footer {
       margin-top: 64px;
@@ -372,22 +405,11 @@
 
     /* ─── Responsive ───────────────────────────────────────── */
     @media (max-width: 680px) {
-      .img-grid {
-        grid-template-columns: 1fr;
-      }
-      .features-list {
-        grid-template-columns: 1fr;
-      }
-      .bundle-card-body {
-        padding: 24px 20px;
-      }
-      .bundle-card-header {
-        padding: 22px 20px 18px;
-      }
-      .cta-btn {
-        width: 100%;
-        justify-content: center;
-      }
+      .img-grid { grid-template-columns: 1fr; }
+      .features-list { grid-template-columns: 1fr; }
+      .bundle-card-body { padding: 24px 20px; }
+      .bundle-card-header { padding: 22px 20px 18px; }
+      .cta-btn { width: 100%; justify-content: center; }
     }
 
     @media (max-width: 480px) {
@@ -395,7 +417,6 @@
       .bundle-headline { font-size: 1.35rem; }
     }
 
-    /* ─── Fade-in animation ─────────────────────────────────── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(20px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -406,7 +427,6 @@
 </head>
 <body>
 
-  <!-- Top Banner -->
   <div class="top-banner">
     <i class="fa-solid fa-graduation-cap"></i>
     Free Live Replay Available Now
@@ -415,37 +435,16 @@
 
   <div class="page-wrapper">
 
-    <!-- ════════════════════════════════════════════
-         SECTION 1 – LIVE STREAM REPLAY
-    ════════════════════════════════════════════ -->
     <section class="section-video" aria-label="Live Stream Replay">
-
       <div class="section-label">
         <i class="fa-solid fa-circle-dot"></i>
         Recorded Live Session
       </div>
-
-      <h1 class="video-title">
-        📺 Live NCLEX Review Replay:<br>Pharmacology Visual Mnemonics
-      </h1>
-
-      <p class="video-desc">
-        In this live session, we covered insulin types, digoxin toxicity,
-        beta-blockers memory tricks, and 20+ NCLEX-style questions.
-      </p>
-
-      <!-- 16:9 Responsive YouTube Embed -->
+      <h1 class="video-title">📺 Live NCLEX Review Replay:<br>Pharmacology Visual Mnemonics</h1>
+      <p class="video-desc">In this live session, we covered insulin types, digoxin toxicity, beta-blockers memory tricks, and 20+ NCLEX-style questions.</p>
       <div class="video-wrap">
-        <iframe
-          src="https://www.youtube.com/embed/PLACEHOLDER_VIDEO_ID?rel=0&modestbranding=1"
-          title="Live NCLEX Review Replay: Pharmacology Visual Mnemonics"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          loading="lazy">
-        </iframe>
+        <iframe src="https://www.youtube.com/embed/PLACEHOLDER_VIDEO_ID?rel=0&modestbranding=1" title="Live NCLEX Review Replay: Pharmacology Visual Mnemonics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
-
-      <!-- Topic chips -->
       <div class="topic-chips" role="list" aria-label="Topics covered">
         <span class="chip" role="listitem"><i class="fa-solid fa-syringe"></i> Insulin Types</span>
         <span class="chip" role="listitem"><i class="fa-solid fa-heart-pulse"></i> Digoxin Toxicity</span>
@@ -454,119 +453,81 @@
         <span class="chip" role="listitem"><i class="fa-solid fa-circle-question"></i> 20+ NCLEX Questions</span>
         <span class="chip" role="listitem"><i class="fa-solid fa-lightbulb"></i> Visual Mnemonics</span>
       </div>
-
     </section>
 
     <hr class="divider" />
 
-    <!-- ════════════════════════════════════════════
-         SECTION 2 – PRODUCT BUNDLE
-    ════════════════════════════════════════════ -->
     <section class="section-bundle" aria-label="Product Bundle">
-
-      <div class="section-label">
-        <i class="fa-solid fa-star"></i>
-        Complete NCLEX Bundle
-      </div>
-
-      <h2 class="bundle-headline">
-        🎓 Join 8,000+ Nursing Students Who<br>Passed NCLEX Using This Complete Bundle
-      </h2>
-      <p class="bundle-subline">
-        Everything you need — visual notes, practice questions, drug references,
-        and concept maps — all in one place.
-      </p>
-
-      <!-- ── Image Grid (3 empty slots) ── -->
+      <div class="section-label"><i class="fa-solid fa-star"></i> Complete NCLEX Bundle</div>
+      <h2 class="bundle-headline">🎓 Join 8,000+ Nursing Students Who<br>Passed NCLEX Using This Complete Bundle</h2>
+      <p class="bundle-subline">Everything you need — visual notes, practice questions, drug references, and concept maps — all in one place.</p>
       <div class="img-grid" role="list" aria-label="Bundle preview images">
-
-        <div class="img-slot-1" role="listitem" aria-label="Preview image slot 1">
-          <!-- I will add my own image here -->
-          <i class="fa-regular fa-image"></i>
-        </div>
-
-        <div class="img-slot-2" role="listitem" aria-label="Preview image slot 2">
-          <!-- I will add my own image here -->
-          <i class="fa-regular fa-image"></i>
-        </div>
-
-        <div class="img-slot-3" role="listitem" aria-label="Preview image slot 3">
-          <!-- I will add my own image here -->
-          <i class="fa-regular fa-image"></i>
-        </div>
-
+        <div class="img-slot-1" role="listitem" aria-label="Preview image slot 1"><i class="fa-regular fa-image"></i></div>
+        <div class="img-slot-2" role="listitem" aria-label="Preview image slot 2"><i class="fa-regular fa-image"></i></div>
+        <div class="img-slot-3" role="listitem" aria-label="Preview image slot 3"><i class="fa-regular fa-image"></i></div>
       </div>
-
-      <!-- ── Bundle Card ── -->
       <div class="bundle-card">
-
         <div class="bundle-card-header">
           <h3><i class="fa-solid fa-box-open" style="margin-right:8px;"></i>What's Inside the Bundle</h3>
           <p>Instant digital access · Updated for Next-Gen NCLEX · Printable formats included</p>
         </div>
-
         <div class="bundle-card-body">
-
           <ul class="features-list" aria-label="Bundle features">
-  <!-- Fundamentals -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>📁 Fundamentals</strong><br>Abbreviations, DO NOT use list, Nursing Process & Priority, Maslow, Ethics, Law, Scope of Practice, Infection Control, Precautions, Safety, IV Therapy, Blood Transfusions, Fluid & Electrolytes, Medication, Pharmacokinetics, Pressure Injuries, Hypovolemia/Hypervolemia</li>
-  
-  <!-- Mental Health -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>🧠 Mental Health</strong><br>Therapeutic Communication, Anxiety, Depression, PTSD, Schizophrenia, Personality Disorders, Eating Disorders, Bipolar, Delirium vs. Alzheimer's, Somatic Symptom Disorder</li>
-  
-  <!-- Mother Baby -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>🤰 Mother Baby</strong><br>Antepartum, Intrapartum, Newborn, Postpartum – GTPAL, APGAR, Naegele's Rule, Trimesters, Labor Stages, Fetal Monitoring, 5 P's, Postpartum Assessment, Hemorrhage, Newborn Assessment</li>
-  
-  <!-- Pediatrics -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>👶 Pediatrics</strong><br>Vital Signs, Developmental Milestones (1m–5y), Piaget's Stages, Pediatric Anatomy, RSV, Croup, CF, DDH, SIDS, Epiglottitis, Fever Management, Fetal Circulation</li>
-  
-  <!-- Med Surg (long, split into two items for balance) -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>🫀 Med Surg – Part 1</strong><br>Renal/Urinary, Cardiac, Endocrine, Respiratory, Hematology, GI, Neurological, Critical Care, ABGs, Musculoskeletal, Reproductive, Oncology, Visual/Auditory (new!), Surgical/Operative (new!)</li>
-  
-  <li><i class="fa-solid fa-check-circle"></i> <strong>🩺 Med Surg – Part 2</strong><br>Diabetes, Insulin Types, Thyroid/Adrenal, Heart Sounds, EKGs, MI, Hypertension, AKI, CKD, UTIs, Dialysis, Stroke, Seizures, Cranial Nerves, COPD, Pneumonia, Lung Sounds, Cirrhosis, Pancreatitis, IBD, ABG interpretation, Acid-Base, Burns, Shock, Compartment Syndrome, Gout, Arthritis</li>
-  
-  <!-- Pharmacology -->
-  <li><i class="fa-solid fa-check-circle"></i> <strong>💊 Pharmacology</strong><br>Pharm Basics, Suffixes & Prefixes, Cardiac, GI, Neuro, Mother Baby, Immune, Renal/Urinary, Respiratory, Endocrine, Musculoskeletal – Med Suffixes, Antidotes, Pain Meds, Antibiotics, Psychiatric & Cardiac Drugs, Respiratory Pharmacology, Therapeutic Levels & Administration Routes</li>
-</ul>
-
-          <!-- CTA -->
+            <li><i class="fa-solid fa-check-circle"></i> <strong>📁 Fundamentals</strong><br>Abbreviations, Nursing Process, Safety, IV Therapy, Fluid & Electrolytes.</li>
+            <li><i class="fa-solid fa-check-circle"></i> <strong>🧠 Mental Health</strong><br>Anxiety, Depression, PTSD, Schizophrenia, Personality Disorders.</li>
+            <li><i class="fa-solid fa-check-circle"></i> <strong>🤰 Mother Baby</strong><br>Antepartum, Labor Stages, Fetal Monitoring, Hemorrhage, Newborn.</li>
+            <li><i class="fa-solid fa-check-circle"></i> <strong>👶 Pediatrics</strong><br>Vital Signs, Milestones, Piaget's Stages, Croup, Epiglottitis.</li>
+            <li><i class="fa-solid fa-check-circle"></i> <strong>🫀 Med Surg</strong><br>Cardiac, Respiratory, GI, Neuro, AKI, CKD, Diabetes, Heart Sounds.</li>
+            <li><i class="fa-solid fa-check-circle"></i> <strong>💊 Pharmacology</strong><br>Suffixes, Antidotes, Cardiac & Psychiatric Drugs, Therapeutic Levels.</li>
+          </ul>
           <div class="cta-area">
-            <a
-              href="https://gumroad.com/l/nursing-bundle-placeholder"
-              class="cta-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Get the complete NCLEX bundle now"
-            >
-              <i class="fa-solid fa-bolt"></i>
-              Get the Complete Bundle Now
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="https://purelydigitalmarket.gumroad.com/l/NursingSchoolBundle1" class="cta-btn" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-bolt"></i> Get the 2026 Edition Now <i class="fa-solid fa-arrow-right"></i>
             </a>
-
-            <span class="urgency-text">
-              <i class="fa-solid fa-fire"></i>
-              ⚡ Limited discount for first 50 buyers
-            </span>
-
-            <!-- Trust signals -->
-            <div class="trust-row" aria-label="Trust signals">
+            <span class="urgency-text"><i class="fa-solid fa-fire"></i> ⚡ Limited discount for first 50 buyers</span>
+            <div class="trust-row">
               <span class="trust-item"><i class="fa-solid fa-shield-halved"></i> Secure checkout</span>
-              <span class="trust-item"><i class="fa-solid fa-rotate-left"></i> 30-day money-back guarantee</span>
               <span class="trust-item"><i class="fa-solid fa-download"></i> Instant digital download</span>
               <span class="trust-item"><i class="fa-solid fa-users"></i> 8,000+ students enrolled</span>
             </div>
           </div>
-
-        </div><!-- /bundle-card-body -->
-      </div><!-- /bundle-card -->
-
+        </div>
+      </div>
     </section>
 
-  </div><!-- /page-wrapper -->
+    <section class="resource-directory" id="premium-resources">
+      <h2>🚀 Official Nursing Study Resources (2026 Edition)</h2>
+      <div class="resource-list">
+        
+        <div class="resource-item">
+          <h3>The Complete Nursing School Bundle® 2026 Edition</h3>
+          <p>The all-in-one NCLEX study guide trusted by thousands of nursing students worldwide.</p>
+          <a href="https://purelydigitalmarket.gumroad.com/l/NursingSchoolBundle1" target="_blank">
+            <i class="fa-solid fa-link"></i> Download 2026 Complete Bundle
+          </a>
+        </div>
 
-  <!-- Footer -->
-  <footer class="page-footer" role="contentinfo">
-    <p>© 2025 NCLEX Nursing Review · All rights reserved · Not affiliated with NCSBN</p>
+        <div class="resource-item">
+          <h3>Nursing School Notes (1500+ Pages) | MedSurg & Pharmacology</h3>
+          <p>Comprehensive NCLEX study guide including visual mnemonics and digital downloads for easy printing.</p>
+          <a href="https://purelydigitalmarket.gumroad.com/l/nursing-school-notes-1500-pages" target="_blank">
+            <i class="fa-solid fa-link"></i> Get 1500+ Pages Nursing Notes
+          </a>
+        </div>
+
+        <div class="resource-item">
+          <h3>Comprehensive Hyperlinked Nursing Bundle (850+ Pages)</h3>
+          <p>Easy-to-navigate digital study guide bundle optimized for iPad and tablet study sessions.</p>
+          <a href="https://purelydigitalmarket.gumroad.com/l/comprehensive-nursing-school-bundle" target="_blank">
+            <i class="fa-solid fa-link"></i> Access Hyperlinked Bundle
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </div><footer class="page-footer" role="contentinfo">
+    <p>© 2026 NCLEX Nursing Review · All rights reserved · Not affiliated with NCSBN</p>
   </footer>
 
 </body>
